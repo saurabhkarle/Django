@@ -31,3 +31,9 @@ To activate the virtual environment we will use the python interpreter inside th
 
 django-admin is a utility that comes with django. We can see all commands we can use if we run it.
 
+    'django.contrib.admin', - admin interface
+    'django.contrib.auth', -  for authenticating user
+    'django.contrib.contenttypes', - later
+    'django.contrib.messages', - which is used for diplaying one time notifications
+    django.contrib.sessions' - legacy, we dont use session  as apis remove this part, its a temporary memory used for user data
+    'django.contrib.staticfiles', - serving static file like images, pdfs
